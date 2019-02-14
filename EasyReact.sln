@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3BEB73D-C263-4507-86E2-240FF59251BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{98FE8A75-685F-4E82-A322-64DD1D4759DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyReact.Project.Website", "src\Project\EasyReact.Project.Website\EasyReact.Project.Website.csproj", "{EE3CCE5A-CBB1-4528-9765-E5BD823B6B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{BCD671BD-E394-4D4A-85F1-949EF060B102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.React", "src\Foundation\React\code\Sitecore.Foundation.React.csproj", "{A44D104F-02FC-4F13-8F78-C265E861B572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyReact.Feature.Example", "src\Feature\EasyReact.Feature.Example\EasyReact.Feature.Example.csproj", "{1571F4B7-FB3F-4725-9FAD-332F341900C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{2FB3A4DD-8FBD-4A43-B06D-7519B4E2DA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE3CCE5A-CBB1-4528-9765-E5BD823B6B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3CCE5A-CBB1-4528-9765-E5BD823B6B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3CCE5A-CBB1-4528-9765-E5BD823B6B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3CCE5A-CBB1-4528-9765-E5BD823B6B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44D104F-02FC-4F13-8F78-C265E861B572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44D104F-02FC-4F13-8F78-C265E861B572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44D104F-02FC-4F13-8F78-C265E861B572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44D104F-02FC-4F13-8F78-C265E861B572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1571F4B7-FB3F-4725-9FAD-332F341900C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1571F4B7-FB3F-4725-9FAD-332F341900C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1571F4B7-FB3F-4725-9FAD-332F341900C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1571F4B7-FB3F-4725-9FAD-332F341900C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98FE8A75-685F-4E82-A322-64DD1D4759DC} = {C3BEB73D-C263-4507-86E2-240FF59251BE}
+		{EE3CCE5A-CBB1-4528-9765-E5BD823B6B19} = {98FE8A75-685F-4E82-A322-64DD1D4759DC}
+		{BCD671BD-E394-4D4A-85F1-949EF060B102} = {C3BEB73D-C263-4507-86E2-240FF59251BE}
+		{A44D104F-02FC-4F13-8F78-C265E861B572} = {BCD671BD-E394-4D4A-85F1-949EF060B102}
+		{1571F4B7-FB3F-4725-9FAD-332F341900C2} = {2FB3A4DD-8FBD-4A43-B06D-7519B4E2DA04}
+		{2FB3A4DD-8FBD-4A43-B06D-7519B4E2DA04} = {C3BEB73D-C263-4507-86E2-240FF59251BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06B9FB4C-3AC6-4B6A-A426-D36321F5D102}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
